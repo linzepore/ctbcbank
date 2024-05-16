@@ -4,7 +4,7 @@
 ### 参考文档
 本项目是基于中國信托商業銀行提供的API文档开发的，开发方式为URL的方式
 文档一般在中國信托商業銀行测试环境特点管理系统下载，具体文档如下：
-* [POS_URL_手冊_1.7.6.pdf]()
+* [POS_URL_手冊_1.7.6.pdf](https://github.com/linzepore/ctbcbank/blob/master/POS_URL_%E6%89%8B%E5%86%8A_1.7.6.pdf)
 
 ### 依赖
 1：上传jar包到本地maven仓库
