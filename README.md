@@ -25,12 +25,13 @@ mvn install:install-file -Dfile=【newposapi_j_npg.jar本地路径】 -DgroupId=
 ### 流程
 1. 申请测试账号获取特店編號、MerchantID等信息
 2. 填写`application.yaml`配置文件
-3. 启动项目
-4. `http://127.0.0.1:7979/ctbc-bank/get-url-enc` API调用
-5. 访问`sslauth.html`填入上一步获取的`urlenc`、`merID`等信息
-6. 点击提交按钮，会跳转到中國信托商業銀行的支付页面
-7. 模拟支付
-8. 查看回调接口返回的数据
+3. 上传jar包到本地maven仓库
+4. 启动项目
+5. `http://127.0.0.1:7979/ctbc-bank/get-url-enc` API调用
+6. 访问`sslauth.html`填入上一步获取的`urlenc`、`merID`等信息
+7. 点击提交按钮，会跳转到中國信托商業銀行的支付页面
+8. 模拟支付
+9. 查看回调接口返回的数据
 
 ### API调用
 http://127.0.0.1:7979/ctbc-bank/get-url-enc
