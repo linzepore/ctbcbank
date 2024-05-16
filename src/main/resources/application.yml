@@ -1,0 +1,18 @@
+server:
+  port: 7979
+
+ctbc:
+  # 系統
+  key: "RLiJpgejXPQRPYN21bKA0h2e"
+  # 網路特店編號
+  MerID: "99999"
+  # 特店代號
+  MerchantID: "5220310000081"
+  # 終端機代號
+  TerminalID: "81933107"
+  # 付款交易方式。0–一般 1–分期 2–紅利 4–紅利分期
+  txType: "1"
+  # 設定分期期數。(選填，僅適用在分期交易及紅利分期交易)
+  numberOfPay: "3"
+  # 設定系統回傳結果參數到指定網址。
+  callbackUrl: "http://127.0.0.1:7979/ctbc-bank/request-pay-callback"
